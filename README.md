@@ -1,4 +1,4 @@
-# LakePowellInflow
+# Lake Powell Inflow Comparisons
 Comparisons of Lake Powell inflow Projections and scenarios
 
 The code LakePowellForecastHistory.ipynb contains 6 blocks of code:
