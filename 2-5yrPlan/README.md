@@ -1,4 +1,4 @@
-# Lake Powell Inflow Comparisons
+# Lake Powell Inflow Comparisons to 24 Month Study
 Comparisons of Lake Powell inflow Projections and scenarios
 
 The code LakePowellForecastHistory.ipynb contains 6 blocks of code:
