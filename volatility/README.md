@@ -3,7 +3,7 @@ Comparisons of Lake Powell inflow projections and hydrologic scenario behavior.
 
 This repository analyzes Colorado River natural flow ensembles, Lake Powell storage vulnerability, and year‑to‑year flow volatility using datasets from Salehabadi et al. (2024) and the U.S. Geological Survey (2018). The workflow consists of two Python scripts that must be run in order.
 
-## 📂 Data Sources
+##  Data Sources
 
 ### HydrologyScenarios.xlsx
 Streamflow ensembles from Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study (Salehabadi et al. 2024).
@@ -42,7 +42,7 @@ Produces bar charts showing ensemble vulnerability
 
 Computes all year‑to‑year inflow pairs and writes:
 
-### ➡️ AllHydrology_YearToYearPairs.csv
+### AllHydrology_YearToYearPairs.csv
 This file contains every year‑to‑year inflow pair across all ensembles:
 
 Ensemble
@@ -107,7 +107,7 @@ Flow frequency analysis
 
 Hydrologic drought stress testing
 
-## 🔄 Script Execution Order (Important)
+##  Script Execution Order (Important)
 To ensure all scripts run correctly:
 
 Run MassBalance_StorageSimulation.py
@@ -120,7 +120,7 @@ Requires the CSV generated in step 1
 
 Produces both the annual‑flow distribution plot and the drop‑magnitude volatility plot
 
-## 🚀 Quick Start
+##  Quick Start
 1. Place the required data files in the repository folder
 You must include:
 
@@ -148,7 +148,7 @@ Summary tables
 
 Diagnostic printouts
 
-## 📚 Citations
+##  Citations
 HydrologyScenarios.xlsx
 Salehabadi, H., et al. (2024).
 Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study.  
