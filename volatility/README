@@ -1,9 +1,9 @@
-# Lake Powell Inflow Comparisons
+## Lake Powell Inflow Comparisons
 Comparisons of Lake Powell inflow projections and hydrologic scenario behavior.
 
 This repository analyzes Colorado River natural flow ensembles, Lake Powell storage vulnerability, and year‑to‑year flow volatility using datasets from Salehabadi et al. (2024) and the U.S. Geological Survey (2018). The workflow consists of two Python scripts that must be run in order.
 
-📂 Data Sources
+#📂 Data Sources
 HydrologyScenarios.xlsx
 Streamflow ensembles from Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study (Salehabadi et al. 2024).
 Each sheet contains annual natural flow traces (MAF) for a specific ensemble.
