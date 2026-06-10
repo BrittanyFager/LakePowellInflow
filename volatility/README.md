@@ -153,7 +153,7 @@ HydrologyScenarios.xlsx
 Salehabadi, H., et al. (2024).
 Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study.  
 Water Resources Research.  
-https://doi.org/10.1029/2023WR036401 (doi.org in Bing)
+https://doi.org/10.1029/2023WR036401 (doi.org)
 
 Lake_Powell_2018_ElevAreaCap_calc.csv
 U.S. Geological Survey (2018).
