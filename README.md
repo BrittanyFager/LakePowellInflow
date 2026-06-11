@@ -1,5 +1,5 @@
-###Lake Powell Inflow Comparisons
-##Comparisons of Lake Powell inflow projections and scenarios
+### Lake Powell Inflow Comparisons
+## Comparisons of Lake Powell inflow projections and scenarios
 This repository contains the notebook LakePowellForecastHistory.ipynb, which includes three analysis folders:
 
 2–5 Year Plan — compares scenario inflows to the USBR 24‑Month Study
@@ -8,7 +8,7 @@ Volatility — analyzes year‑to‑year flow drops to illustrate hydrologic vol
 
 Decision Frequency — uses CRSS outputs to compare monthly vs. annual operational decision points
 
-##Run Online (No Installation Required)
+## Run Online (No Installation Required)
 All folders contain .ipynb Jupyter notebooks.
 If you do not want to install Python or Jupyter locally, you can run everything online using Binder, a free service from Project Jupyter.
 
