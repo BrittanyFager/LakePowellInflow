@@ -1,4 +1,4 @@
-### Lake Powell Inflow Comparisons
+# Lake Powell Inflow Comparisons
 ## Comparisons of Lake Powell inflow projections and scenarios
 This repository contains the notebook LakePowellForecastHistory.ipynb, which includes three analysis folders:
 
