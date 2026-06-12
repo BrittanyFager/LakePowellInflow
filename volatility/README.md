@@ -6,7 +6,7 @@ The analysis quantifies how often large drops occur, how many ensembles experien
 
 ---
 
-## 📂 Files in This Folder
+## Files in This Folder
 
 volatility/
 │
@@ -39,7 +39,7 @@ volatility/
 
 ---
 
-## 🧠 What the Code Does
+## What the Code Does
 
 ### 1. Load all hydrology scenario ensembles  
 The notebook reads every sheet in `HydrologyScenarios.xlsx` except metadata sheets.  
@@ -85,7 +85,7 @@ The final figure shows:
 
 ---
 
-## ▶️ Run the Notebook Online (No Installation Required)
+## Run the Notebook Online (No Installation Required)
 
 You can run this notebook in your browser using **Binder**, without installing Python or Jupyter.
 
@@ -109,21 +109,15 @@ Everything runs in a temporary cloud environment.
 
 ---
 
-## 📦 Do Binder Users Need to Install Packages?
+## Do Binder Users Need to Install Packages?
 
 **No.**  
 Binder automatically installs all required Python packages using the environment files in this repository.
 
 ---
 
-## 📘 How to Cite Binder
 
-> Jupyter et al. (2018). *Binder 2.0 – Reproducible, Interactive, Sharable Environments for Science at Scale.*  
-> DOI: 10.25080/Majora-4af1f417-011
-
----
-
-## ✔️ Output File
+## Output File
 
 The notebook generates:
 
@@ -133,3 +127,11 @@ The notebook generates:
 This file is used for volatility analysis and plotting.
 
 ---
+## Citations
+---
+HydrologyScenarios.xlsx Salehabadi, H., et al. (2024). Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study.
+Water Resources Research.
+https://doi.org/10.1029/2023WR036401 (doi.org)
+
+Lake_Powell_2018_ElevAreaCap_calc.csv U.S. Geological Survey (2018). Elevation–area–capacity tables for Lake Powell, 2018.
+https://doi.org/10.5066/F7X63K0Z
