@@ -1,1 +1,135 @@
 
+# Lake Powell Flow Volatility Analysis
+
+This folder contains the workflow for analyzing **year‑to‑year volatility in annual natural inflow to Lake Powell** across all hydrology scenario ensembles.  
+The analysis quantifies how often large drops occur, how many ensembles experience them, and where historical events (e.g., 2005–2006, 2019–2020, 2025–2026) fall within the distribution.
+
+---
+
+## 📂 Files in This Folder
+
+volatility/
+│
+├── Volatility.ipynb
+├── HydrologyScenarios.xlsx
+├── Lake_Powell_2018_ElevAreaCap_calc.csv
+└── README.md
+
+
+### File Descriptions
+
+- **Volatility.ipynb**  
+  Main notebook performing:
+  - Extraction of annual flows from all ensembles and traces  
+  - Construction of year‑to‑year flow pairs  
+  - Computation of annual flow drops (MAF)  
+  - Binning of drops into 1‑MAF categories  
+  - Counting how many ensembles experience drops of each magnitude  
+  - Plotting the distribution of flow declines  
+  - Highlighting historical drops (2005–2006, 2019–2020, 2025–2026)
+
+- **HydrologyScenarios.xlsx**  
+  Contains all hydrology scenario ensembles.  
+  Each sheet represents one ensemble, with:
+  - Column 1 = Year  
+  - Columns 2+ = individual traces  
+
+- **Lake_Powell_2018_ElevAreaCap_calc.csv**  
+  Elevation–area–capacity table (not directly used in volatility plots, but included for completeness).
+
+---
+
+## 🧠 What the Code Does
+
+### 1. Load all hydrology scenario ensembles  
+The notebook reads every sheet in `HydrologyScenarios.xlsx` except metadata sheets.  
+Each ensemble may contain dozens of traces.
+
+### 2. Extract annual flows  
+For every ensemble and every trace, the notebook builds a long dataframe of:
+
+- Ensemble  
+- Trace  
+- YearIndex  
+- Year  
+- Annual natural flow (MAF)
+
+### 3. Compute year‑to‑year flow pairs  
+For each trace:
+
+- `Inflow_MAF` (year t)  
+- `NextFlow_MAF` (year t+1)  
+- `Difference_MAF = NextFlow_MAF – Inflow_MAF`  
+
+Only valid consecutive years are kept.
+
+### 4. Filter to meaningful hydrologic cases  
+The notebook keeps only:
+
+- Starting flow < 12.5 MAF  
+- Negative differences (drops)  
+- Next year flow > 0  
+
+### 5. Bin drop magnitudes  
+Drops are grouped into **1‑MAF bins** from 0 to 13 MAF.
+
+### 6. Count ensembles per drop magnitude  
+The notebook counts how many ensembles experience a drop of each size.
+
+### 7. Plot the distribution  
+The final figure shows:
+
+- Bars = number of ensembles experiencing a drop of each magnitude  
+- Vertical red lines marking historical drops  
+- X‑axis limited to 0–10 MAF for clarity  
+
+---
+
+## ▶️ Run the Notebook Online (No Installation Required)
+
+You can run this notebook in your browser using **Binder**, without installing Python or Jupyter.
+
+### How to Launch on Binder
+
+1. Go to **https://mybinder.org**
+2. Paste the URL of this GitHub repository
+3. Click **Launch**
+4. When JupyterLab opens, navigate to:
+
+
+5. Run the notebook interactively in your browser
+
+Binder requires:
+
+- no installation  
+- no Python setup  
+- no package management  
+
+Everything runs in a temporary cloud environment.
+
+---
+
+## 📦 Do Binder Users Need to Install Packages?
+
+**No.**  
+Binder automatically installs all required Python packages using the environment files in this repository.
+
+---
+
+## 📘 How to Cite Binder
+
+> Jupyter et al. (2018). *Binder 2.0 – Reproducible, Interactive, Sharable Environments for Science at Scale.*  
+> DOI: 10.25080/Majora-4af1f417-011
+
+---
+
+## ✔️ Output File
+
+The notebook generates:
+
+- **AllHydrology_YearToYearPairs.csv**  
+  Contains every valid year‑to‑year flow pair across all ensembles and traces.
+
+This file is used for volatility analysis and plotting.
+
+---
