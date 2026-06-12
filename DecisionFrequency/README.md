@@ -16,17 +16,58 @@ This repository contains tools for analyzing Lake Powell inflow behavior, scenar
 
 ---
 
-## Run Online (No Installation Required)
 
-All analysis is performed in `.ipynb` Jupyter notebooks.  
-If you do **not** want to install Python or Jupyter locally, you can run everything online using **Binder**, a free service from Project Jupyter.
+### File Descriptions
 
-### How to Launch This Repository on Binder
+- **DecisionFrequency.ipynb**  
+  Main analysis notebook. Implements three reservoir‑operation scenarios:
+  - Monthly release decisions  
+  - 6‑month block release decisions  
+  - Annual release decisions  
 
-1. Go to **https://mybinder.org**
-2. Paste the URL of this GitHub repository into the launch box
-3. Click **Launch**
-4. Binder will build a temporary environment with all required packages
-5. When JupyterLab opens, navigate to:
+  Each scenario uses a mass‑balance model with:
+  - Powell inflow  
+  - Elevation–storage conversion  
+  - A 95%‑of‑inflow release rule when elevation falls below 3525 ft  
+  - A base release of 8.3 MAF/year  
+
+- **Powell level analysis.xlsx**  
+  Contains the Powell inflow, elevation, and storage time series used as model inputs.
+
+- **elevPowell.csv**  
+  USBR elevation–area–capacity lookup table used to convert between:
+  - Elevation → Storage  
+  - Storage → Elevation  
+  - Elevation → Surface Area  
+
+---
+
+
+5. Run the notebook interactively in your browser using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR-USER/YOUR-REPO/HEAD)
+
+Binder requires:
+
+- no installation  
+- no Python setup  
+- no package management  
+
+Everything runs in a temporary cloud environment.
+
+---
+
+## 📦 Do Binder Users Need to Install Packages?
+
+**No.**  
+Binder automatically installs all required Python packages using the environment files in this repository (e.g., `requirements.txt` or `environment.yml`).
+
+Users do **not** need to install:
+
+- Python  
+- Jupyter  
+- pandas  
+- numpy  
+- matplotlib  
+
+Everything is handled by Binder.
 
 
