@@ -132,5 +132,3 @@ HydrologyScenarios.xlsx Salehabadi, H., et al. (2024). Quantifying and Classifyi
 Water Resources Research.
 https://doi.org/10.1029/2023WR036401 (doi.org)
 
-Lake_Powell_2018_ElevAreaCap_calc.csv U.S. Geological Survey (2018). Elevation–area–capacity tables for Lake Powell, 2018.
-https://doi.org/10.5066/F7X63K0Z
