@@ -12,7 +12,6 @@ volatility/
 │
 ├── Volatility.ipynb
 ├── HydrologyScenarios.xlsx
-├── Lake_Powell_2018_ElevAreaCap_calc.csv
 └── README.md
 
 
