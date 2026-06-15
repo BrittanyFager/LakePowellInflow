@@ -13,7 +13,7 @@ All folders contain .ipynb Jupyter notebooks.
 If you do not want to install Python or Jupyter locally, you can run everything online using Binder, a free service from Project Jupyter.
 
 Launching Your Notebook on Binder
-Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR-USER/YOUR-REPO/HEAD)
+Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrittanyFager/LakePowellInflow/HEAD)
 
 Paste your GitHub repository URL into the box
 
