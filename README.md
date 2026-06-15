@@ -17,9 +17,9 @@ Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/g
 
 This link will take you to an instance of jupyter notebooks online.
 
-On the left side of the enviroment you will see 3 folders as seen here on the github along with this readme and the requirements.txt.
+On the left side of the enviroment you will see 3 folders as seen here on this github along with this readme and the requirements.txt.
 
-In each folder there are .ipynb files and you can open these and run the code. On the github there are read me files in each folder explaining more about each code!
+In each folder there are .ipynb files and you can open these and run the code. On this github there are read me files in each folder explaining more about each code!
 
 
 
