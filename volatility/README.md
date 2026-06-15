@@ -82,36 +82,6 @@ The final figure shows:
 - Vertical red lines marking historical drops  
 - X‑axis limited to 0–10 MAF for clarity  
 
----
-
-## Run the Notebook Online (No Installation Required)
-
-You can run this notebook in your browser using **Binder**, without installing Python or Jupyter.
-
-### How to Launch on Binder
-
-1. Go to **https://mybinder.org**
-2. Paste the URL of this GitHub repository
-3. Click **Launch**
-4. When JupyterLab opens, navigate to:
-
-
-5. Run the notebook interactively in your browser
-
-Binder requires:
-
-- no installation  
-- no Python setup  
-- no package management  
-
-Everything runs in a temporary cloud environment.
-
----
-
-## Do Binder Users Need to Install Packages?
-
-**No.**  
-Binder automatically installs all required Python packages using the environment files in this repository.
 
 ---
 
