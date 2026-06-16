@@ -42,36 +42,26 @@ This repository contains tools for analyzing Lake Powell inflow behavior, scenar
 
 ---
 
+## Run Online (No Installation Required)
+This folders contains  DecisionFrequency.ipynb Jupyter notebooks.
+If you do not want to install Python or Jupyter locally, you can run everything online using Binder, a free service from Project Jupyter.
 
-5. Run the notebook interactively in your browser using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR-USER/YOUR-REPO/HEAD)
+Launching Your Notebook on Binder
+Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrittanyFager/LakePowellInflow/HEAD)
 
-Binder requires:
+This link will take you to an instance of jupyter notebooks online.
 
-- no installation  
-- no Python setup  
-- no package management  
+On the left side of the enviroment you will see 3 folders as seen here on this github along with this readme and the requirements.txt.
 
-Everything runs in a temporary cloud environment.
+Navigate to the DecisionFrequency folder. 
+
+In this folder is the file DecisionFrequency.ipynb double click it top open it and you can run and edit it in this instance.
+
 
 ---
-
-## 📦 Do Binder Users Need to Install Packages?
-
-**No.**  
-Binder automatically installs all required Python packages using the environment files in this repository (e.g., `requirements.txt` or `environment.yml`).
-
-Users do **not** need to install:
-
-- Python  
-- Jupyter  
-- pandas  
-- numpy  
-- matplotlib  
-
-Everything is handled by Binder.
 
 ## Citations
----
+
 HydrologyScenarios.xlsx Salehabadi, H., et al. (2024). Quantifying and Classifying Streamflow Ensembles Using a Broad Range of Metrics for an Evidence‑Based Analysis: Colorado River Case Study.
 Water Resources Research.
 https://doi.org/10.1029/2023WR036401 (doi.org)
@@ -79,3 +69,5 @@ https://doi.org/10.1029/2023WR036401 (doi.org)
 Lake_Powell_2018_ElevAreaCap_calc.csv U.S. Geological Survey (2018). Elevation–area–capacity tables for Lake Powell, 2018.
 https://doi.org/10.5066/F7X63K0Z
 
+Jupyter et al. (2018). Binder 2.0 – Reproducible, Interactive, Sharable Environments for Science at Scale.  
+DOI: 10.25080/Majora‑4af1f417‑011
