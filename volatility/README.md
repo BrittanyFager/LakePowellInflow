@@ -94,6 +94,22 @@ The notebook generates:
   Contains every valid year‑to‑year flow pair across all ensembles and traces.
 
 This file is used for volatility analysis and plotting.
+---
+
+## Run Online (No Installation Required)
+This folders contains  DecisionFrequency.ipynb Jupyter notebooks.
+If you do not want to install Python or Jupyter locally, you can run everything online using Binder, a free service from Project Jupyter.
+
+Launching Your Notebook on Binder
+Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrittanyFager/LakePowellInflow/HEAD)
+
+This link will take you to an instance of jupyter notebooks online.
+
+On the left side of the enviroment you will see 3 folders as seen here on this github along with this readme and the requirements.txt.
+
+Navigate to the volatility folder. 
+
+In this folder is the file volatility.ipynb double click it top open it and you can run and edit it in this instance.
 
 ---
 ## Citations
