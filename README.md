@@ -8,6 +8,8 @@ Volatility — analyzes year‑to‑year flow drops to illustrate hydrologic vol
 
 Decision Frequency — uses CRSS outputs to compare monthly vs. annual operational decision points
 
+Low Annual Flows - Compares lowwest annual flow for each ensemble excluding years which show flows lower than 0.5 MAF.
+
 ## Run Online (No Installation Required)
 All folders contain .ipynb Jupyter notebooks.
 If you do not want to install Python or Jupyter locally, you can run everything online using Binder, a free service from Project Jupyter.
